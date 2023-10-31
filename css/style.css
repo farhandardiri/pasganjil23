@@ -40,6 +40,6 @@ body {
     display: block;
 }
 .tbodyDiv {
-    max-height: clamp(42em, 10vh, 250px);
+    max-height: clamp(60em, 10vh, 250px);
     overflow: auto;
 }
