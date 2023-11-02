@@ -40,7 +40,7 @@ var satunya = new Date("Nov 3, 2023 00:00:00").getTime();
             minutes + " : " + seconds + "  ";
 
           // If the count down is finished, write some text
-        if (distance1 < 0 && distance1 < distance1a) {
+        if (distance1 < 0 && distance1 < distance1a && distance1a  > 1) {
             clearInterval(x);
             document.getElementById("validdaftar").innerText = 'On Progress'
         } else if (distance1a < 0) {
@@ -76,7 +76,7 @@ var satunya = new Date("Nov 3, 2023 00:00:00").getTime();
             minutes + " : " + seconds + "  ";
 
           // If the count down is finished, write some text
-        if (distance2 < 0 && distance2 < distance2a) {
+        if (distance2 < 0 && distance2 < distance2a && distance2a > 1) {
             clearInterval(x);
             document.getElementById("duaa").innerText = 'On Progress'
         } else if (distance2a < 0) {
@@ -112,7 +112,7 @@ var satunya = new Date("Nov 3, 2023 00:00:00").getTime();
             minutes + " : " + seconds + "  ";
 
           // If the count down is finished, write some text
-        if (distance3 < 0 && distance3 < distance3a) {
+        if (distance3 < 0 && distance3 < distance3a && distance3a > 1) {
             clearInterval(x);
             document.getElementById("tigaa").innerText = 'On Progress'
         } else if (distance3a < 0) {
@@ -148,7 +148,7 @@ var satunya = new Date("Nov 3, 2023 00:00:00").getTime();
             minutes + " : " + seconds + "  ";
 
           // If the count down is finished, write some text
-        if (distance4 < 0 && distance4 < distance4a) {
+        if (distance4 < 0 && distance4 < distance4a && distance4a > 1) {
             clearInterval(x);
             document.getElementById("empatt").innerText = 'On Progress'
         } else if (distance4a < 0) {
@@ -184,7 +184,7 @@ var satunya = new Date("Nov 3, 2023 00:00:00").getTime();
             minutes + " : " + seconds + "  ";
 
           // If the count down is finished, write some text
-        if (distance5 < 0 && distance5 < distance5a) {
+        if (distance5 < 0 && distance5 < distance5a && distance5a > 1) {
             clearInterval(x);
             document.getElementById("limaa").innerText = 'On Progress'
         } else if (distance5a < 0) {
@@ -220,7 +220,7 @@ var satunya = new Date("Nov 3, 2023 00:00:00").getTime();
             minutes + " : " + seconds + "  ";
 
           // If the count down is finished, write some text
-        if (distance6 < 0 && distance6 < distance6a) {
+        if (distance6 < 0 && distance6 < distance6a && distance6a > 1) {
             clearInterval(x);
             document.getElementById("enamm").innerText = 'On Progress'
         } else if (distance6a < 0) {
@@ -256,7 +256,7 @@ var satunya = new Date("Nov 3, 2023 00:00:00").getTime();
             minutes + " : " + seconds + "  ";
 
           // If the count down is finished, write some text
-        if (distance7 < 0 && distance7 < distance7a) {
+        if (distance7 < 0 && distance7 < distance7a && distance7a > 1) {
             clearInterval(x);
             document.getElementById("tujuhh").innerText = 'On Progress'
         } else if (distance7a < 0) {
@@ -292,7 +292,7 @@ var satunya = new Date("Nov 3, 2023 00:00:00").getTime();
             minutes + " : " + seconds + "  ";
 
           // If the count down is finished, write some text
-        if (distance8 < 0 && distance8 < distance8a) {
+        if (distance8 < 0 && distance8 < distance8a && distance8a > 1) {
             clearInterval(x);
             document.getElementById("delapann").innerText = 'On Progress'
         } else if (distance8a < 0) {
@@ -328,7 +328,7 @@ var satunya = new Date("Nov 3, 2023 00:00:00").getTime();
             minutes + " : " + seconds + "  ";
 
           // If the count down is finished, write some text
-        if (distance9 < 0 && distance9 < distance9a) {
+        if (distance9 < 0 && distance9 < distance9a && distance9a > 1) {
             clearInterval(x);
             document.getElementById("sembilann").innerText = 'On Progress'
         } else if (distance9a < 0) {
@@ -364,7 +364,7 @@ var satunya = new Date("Nov 3, 2023 00:00:00").getTime();
             minutes + " : " + seconds + "  ";
 
           // If the count down is finished, write some text
-        if (distance10 < 0 && distance10 < distance10a) {
+        if (distance10 < 0 && distance10 < distance10a && distance10a > 1) {
             clearInterval(x);
             document.getElementById("sepuluhh").innerText = 'On Progress'
         } else if (distance10a < 0) {
@@ -400,7 +400,7 @@ var satunya = new Date("Nov 3, 2023 00:00:00").getTime();
             minutes + " : " + seconds + "  ";
 
           // If the count down is finished, write some text
-        if (distance11 < 0 && distance11 < distance11a) {
+        if (distance11 < 0 && distance11 < distance11a && distance11a > 1) {
             clearInterval(x);
             document.getElementById("sebelass").innerText = 'On Progress'
         } else if (distance11a < 0) {
@@ -436,7 +436,7 @@ var satunya = new Date("Nov 3, 2023 00:00:00").getTime();
             minutes + " : " + seconds + "  ";
 
           // If the count down is finished, write some text
-        if (distance12 < 0 && distance12 < distance12a) {
+        if (distance12 < 0 && distance12 < distance12a && distance12a > 1) {
             clearInterval(x);
             document.getElementById("duabelass").innerText = 'On Progress'
         } else if (distance12a < 0) {
@@ -472,7 +472,7 @@ var satunya = new Date("Nov 3, 2023 00:00:00").getTime();
             minutes + " : " + seconds + "  ";
 
           // If the count down is finished, write some text
-        if (distance13 < 0 && distance13 < distance13a) {
+        if (distance13 < 0 && distance13 < distance13a && distance13a > 1) {
             clearInterval(x);
             document.getElementById("tigabelass").innerText = 'On Progress'
         } else if (distance13a < 0) {
@@ -508,7 +508,7 @@ var satunya = new Date("Nov 3, 2023 00:00:00").getTime();
             minutes + " : " + seconds + "  ";
 
           // If the count down is finished, write some text
-        if (distance14 < 0 && distance14 < distance14a) {
+        if (distance14 < 0 && distance14 < distance14a && distance14a > 1) {
             clearInterval(x);
             document.getElementById("empatbelass").innerText = 'On Progress'
         } else if (distance14a < 0) {
@@ -543,7 +543,7 @@ var satunya = new Date("Nov 3, 2023 00:00:00").getTime();
             minutes + " : " + seconds + "  ";
 
           // If the count down is finished, write some text
-        if (distance14 < 0 && distance14 < distance14a) {
+        if (distance14 < 0 && distance14 < distance14a && distance14a > 1) {
             clearInterval(x);
             document.getElementById("limabelass").innerText = 'On Progress'
         } else if (distance14a < 0) {
@@ -579,7 +579,7 @@ var satunya = new Date("Nov 3, 2023 00:00:00").getTime();
             minutes + " : " + seconds + "  ";
 
           // If the count down is finished, write some text
-        if (distance16 < 0 && distance16 < distance16a) {
+        if (distance16 < 0 && distance16 < distance16a && distance16a > 1) {
             clearInterval(x);
             document.getElementById("enambelass").innerText = 'On Progress'
         } else if (distance16a < 0) {
@@ -615,7 +615,7 @@ var satunya = new Date("Nov 3, 2023 00:00:00").getTime();
             minutes + " : " + seconds + "  ";
 
           // If the count down is finished, write some text
-        if (distance17 < 0 && distance17 < distance17a) {
+        if (distance17 < 0 && distance17 < distance17a && distance17a > 1) {
             clearInterval(x);
             document.getElementById("tujuhbelass").innerText = 'On Progress'
         } else if (distance17a < 0) {
@@ -651,7 +651,7 @@ var satunya = new Date("Nov 3, 2023 00:00:00").getTime();
             minutes + " : " + seconds + "  ";
 
           // If the count down is finished, write some text
-        if (distance18 < 0 && distance18 < distance18a) {
+        if (distance18 < 0 && distance18 < distance18a && distance18a > 1) {
             clearInterval(x);
             document.getElementById("delapanbelass").innerText = 'On Progress'
         } else if (distance18a < 0) {
@@ -687,7 +687,7 @@ var satunya = new Date("Nov 3, 2023 00:00:00").getTime();
             minutes + " : " + seconds + "  ";
 
           // If the count down is finished, write some text
-        if (distance19 < 0 && distance19 < distance19a) {
+        if (distance19 < 0 && distance19 < distance19a && distance19a > 1) {
             clearInterval(x);
             document.getElementById("sembilanbelass").innerText = 'On Progress'
         } else if (distance19a < 0) {
@@ -723,7 +723,7 @@ var satunya = new Date("Nov 3, 2023 00:00:00").getTime();
             minutes + " : " + seconds + "  ";
 
           // If the count down is finished, write some text
-        if (distance20 < 0 && distance20 < distance20a) {
+        if (distance20 < 0 && distance20 < distance20a && distance20a > 1) {
             clearInterval(x);
             document.getElementById("duapuluhh").innerText = 'On Progress'
         } else if (distance20a < 0) {
@@ -759,7 +759,7 @@ var satunya = new Date("Nov 3, 2023 00:00:00").getTime();
             minutes + " : " + seconds + "  ";
 
           // If the count down is finished, write some text
-        if (distance21 < 0 && distance21 < distance21a) {
+        if (distance21 < 0 && distance21 < distance21a && distance21a > 1) {
             clearInterval(x);
             document.getElementById("duasatuu").innerText = 'On Progress'
         } else if (distance21a < 0) {
@@ -795,7 +795,7 @@ var satunya = new Date("Nov 3, 2023 00:00:00").getTime();
             minutes + " : " + seconds + "  ";
 
           // If the count down is finished, write some text
-        if (distance22 < 0 && distance22 < distance22a) {
+        if (distance22 < 0 && distance22 < distance22a && distance22a > 1) {
             clearInterval(x);
             document.getElementById("duaduaa").innerText = 'On Progress'
         } else if (distance22a < 0) {
@@ -831,7 +831,7 @@ var satunya = new Date("Nov 3, 2023 00:00:00").getTime();
             minutes + " : " + seconds + "  ";
 
           // If the count down is finished, write some text
-        if (distance23 < 0 && distance23 < distance23a) {
+        if (distance23 < 0 && distance23 < distance23a && distance23a > 1) {
             clearInterval(x);
             document.getElementById("duatigaa").innerText = 'On Progress'
         } else if (distance23a < 0) {
@@ -867,7 +867,7 @@ var satunya = new Date("Nov 3, 2023 00:00:00").getTime();
             minutes + " : " + seconds + "  ";
 
           // If the count down is finished, write some text
-        if (distance24 < 0 && distance24 < distance24a) {
+        if (distance24 < 0 && distance24 < distance24a && distance24a > 1) {
             clearInterval(x);
             document.getElementById("duaempatt").innerText = 'On Progress'
         } else if (distance24a < 0) {
@@ -903,7 +903,7 @@ var satunya = new Date("Nov 3, 2023 00:00:00").getTime();
             minutes + " : " + seconds + "  ";
 
           // If the count down is finished, write some text
-        if (distance25 < 0 && distance25 < distance25a) {
+        if (distance25 < 0 && distance25 < distance25a && distance25a > 1) {
             clearInterval(x);
             document.getElementById("dualimaa").innerText = 'On Progress'
         } else if (distance25a < 0) {
@@ -939,7 +939,7 @@ var satunya = new Date("Nov 3, 2023 00:00:00").getTime();
             minutes + " : " + seconds + "  ";
 
           // If the count down is finished, write some text
-        if (distance26 < 0 && distance26 < distance26a) {
+        if (distance26 < 0 && distance26 < distance26a && distance26a > 1) {
             clearInterval(x);
             document.getElementById("duaenam").innerText = 'On Progress'
         } else if (distance26a < 0) {
@@ -975,7 +975,7 @@ var satunya = new Date("Nov 3, 2023 00:00:00").getTime();
             minutes + " : " + seconds + "  ";
 
           // If the count down is finished, write some text
-        if (distance27 < 0 && distance27 < distance27a) {
+        if (distance27 < 0 && distance27 < distance27a && distance27a > 1) {
             clearInterval(x);
             document.getElementById("duatujuhh").innerText = 'On Progress'
         } else if (distance27a < 0) {
@@ -1007,15 +1007,15 @@ var satunya = new Date("Nov 3, 2023 00:00:00").getTime();
 
         // Display the result in the element with id="demo"
         // Display the result in the element with id="demo"
-        document.getElementById("dualapan").innerText = days + " hari " + hours + " : " +
+        document.getElementById("dualapann").innerText = days + " hari " + hours + " : " +
             minutes + " : " + seconds + "  ";
 
           // If the count down is finished, write some text
-        if (distance28 < 0 && distance28 < distance28a) {
+        if (distance28 < 0 && distance28 < distance28a && distance28a > 1) {
             clearInterval(x);
-            document.getElementById("dualapan").innerText = 'On Progress'
+            document.getElementById("dualapann").innerText = 'On Progress'
         } else if (distance28a < 0) {
              clearInterval(x);
-            document.getElementById("dualapan").innerText = 'Selesai'
+            document.getElementById("dualapann").innerText = 'Selesai'
         }
     },1000);
