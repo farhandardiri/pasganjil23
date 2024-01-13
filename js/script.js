@@ -734,8 +734,8 @@ var satunya = new Date("Nov 3, 2023 00:00:00").getTime();
     
      //21
 // Set the date we're counting down to
-    var duasa = new Date("Dec 15, 2023 00:00:00").getTime();
-    var duasanya = new Date("Dec 17, 2023 00:00:00").getTime();
+    var duasa = new Date("Dec 16, 2023 00:00:00").getTime();
+    var duasanya = new Date("Dec 18, 2023 00:00:00").getTime();
 
     // Update the count down every 1 second
     var x = setInterval(function () {
